@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const LINKEDIN_URL = "https://www.linkedin.com/in/aytaj-abbasova";
+const LINKEDIN_URL = "https://www.linkedin.com/in/aytac-abbasova-552128180/";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -25,22 +25,6 @@ export function VideoSection() {
           className="text-sm uppercase tracking-widest text-zinc-500"
         >
           research
-        </motion.p>
-
-        <motion.p
-          variants={fadeUp}
-          className="mt-8 text-xl text-zinc-300 md:text-2xl"
-        >
-          i write and think about how AI and spatial dynamics reshape innovation ecosystems — and what that means for policy. follow along on{" "}
-          <Link
-            href={LINKEDIN_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white underline decoration-zinc-600 underline-offset-4 transition-colors hover:decoration-white"
-          >
-            linkedin
-          </Link>
-          .
         </motion.p>
 
         {/* Research focus cards */}

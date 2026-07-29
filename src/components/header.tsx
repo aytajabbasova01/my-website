@@ -54,7 +54,7 @@ export function Header() {
 
           {/* Desktop CTA */}
           <Link
-            href="https://www.linkedin.com/in/aytaj-abbasova"
+            href="https://www.linkedin.com/in/aytac-abbasova-552128180/"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden lg:inline-flex items-center gap-2 rounded-lg bg-white/10 px-4 py-2 text-sm font-medium transition-colors hover:bg-white/20"
@@ -108,7 +108,7 @@ export function Header() {
               </Link>
             ))}
             <Link
-              href="https://www.linkedin.com/in/aytaj-abbasova"
+              href="https://www.linkedin.com/in/aytac-abbasova-552128180/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 rounded-lg bg-white/10 px-6 py-3 text-lg transition-colors hover:bg-white/20"

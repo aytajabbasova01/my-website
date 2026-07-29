@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const stats = [
   { value: "Big 4", label: "consulting experience at EY" },
   { value: "3", label: "core research domains: AI, spatial economics, innovation policy" },
-  { value: "2", label: "countries of professional experience (Azerbaijan & Japan)" },
+  { value: "2", label: "countries of professional & academic experience (Azerbaijan & Japan)" },
   { value: "M.A.", label: "master's research at university of tsukuba" },
 ];
 
@@ -16,14 +16,9 @@ const highlights = [
       "master's student at one of japan's leading research universities. research focuses on AI governance, spatial economics, and how innovation policy shapes economic geography.",
   },
   {
-    title: "EY & national innovation center",
+    title: "EY & SABAH.HUB",
     description:
-      "former performance improvement consultant at EY. before that, strategy analyst at azerbaijan's national innovation center — designing frameworks at the intersection of technology and economic development.",
-  },
-  {
-    title: "cross-disciplinary perspective",
-    description:
-      "background spanning public policy, economic analysis, and management consulting. comfortable moving between quantitative research, strategic analysis, and policy design.",
+      "former Performance Improvement & Finance Consultant at EY. before that, strategy analyst at SABAH.HUB, azerbaijan's national innovation center — designing frameworks at the intersection of technology and economic development.",
   },
 ];
 
@@ -70,7 +65,7 @@ export function ResultsSection() {
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
           variants={{ visible: { transition: { staggerChildren: 0.12, delayChildren: 0.2 } } }}
-          className="mt-16 grid gap-6 md:grid-cols-3"
+          className="mt-16 grid gap-6 md:grid-cols-2"
         >
           {highlights.map((h) => (
             <motion.div

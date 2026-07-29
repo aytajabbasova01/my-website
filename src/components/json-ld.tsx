@@ -29,7 +29,7 @@ export function ArticleJsonLd({
       url: "https://oleg.ae",
       sameAs: [
         "https://www.youtube.com/@Oleg-Melnikov",
-        "https://www.linkedin.com/in/olegai",
+        "https://www.linkedin.com/in/aytac-abbasova-552128180/",
         "https://www.instagram.com/melnikoff_oleg",
       ],
     },
